@@ -1,0 +1,31 @@
+{
+  "name": "Google Search Result Shortcuts",
+  "options_page": "options.html",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "This extension adds keyboard shortcuts to Google's search results",
+  "homepage_url": "http://twitter.com/monikkinom",
+  "icons": {
+    "16": "icons/icon16.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "src/inject/inject.js",
+        "js/jquery/jquery.js",
+        "src/inject/hotkey.js"
+      ]
+    }
+  ]
+}
