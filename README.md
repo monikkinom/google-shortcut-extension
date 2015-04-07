@@ -1,4 +1,4 @@
-google-shortcut-extension
+Google Shortcut Extension
 =========================
 
 A chrome extension to add keyboard shortcuts to Google Search Results.
