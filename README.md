@@ -25,5 +25,3 @@ To install the extension..
 4.) Click on load unpacked extension and select the folder in which the files from this repository are present. <br/>
 5.) Done!<br/>
 <br/>
-By Monik Pamecha<br/>
-twitter.com/monikkinom
